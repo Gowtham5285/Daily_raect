@@ -1,13 +1,9 @@
-function Button(){
-    let count=0;
-    const handleClick=(name)=>{
-        if(count<3){
-            count++
-            alert(`${name} You clicked Me ${count} Times`)
-        }else{
-            alert(`${name} Stop Clicking me!!`)
-        }
+function Button() {
+
+    const handleClick = (e) =>{
+        e.target.textContent="Click😣 "
     }
-    return(<button onClick={()=>handleClick("Ram")}>Click Me 🤔</button>)
+
+    return (<button onDoubleClick={(e) => handleClick(e)}>Click Me 🤔</button>)
 }
-export default Button
+export default Button 
