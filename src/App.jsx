@@ -1,8 +1,8 @@
-import Counter from "./Counter.jsx";
+import MyComponent_ from "./MyComponent_.jsx";
 function App() {
   return (
     <>
-    <Counter/>
+    <MyComponent_/>
     </>
   );
 }
