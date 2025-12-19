@@ -1,8 +1,8 @@
-import Arrayupdate from "./Arrayupdate";
+import ArrayOfObjects from "./ArrayOfObjects";
 function App() {
   return (
     <>
-    <Arrayupdate/>
+    <ArrayOfObjects/>
     </>
   );
 }
