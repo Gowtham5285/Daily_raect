@@ -1,8 +1,8 @@
-import ColorPicker from "./ColorPicker.jsx";
+import Arrayupdate from "./Arrayupdate";
 function App() {
   return (
     <>
-    <ColorPicker/>
+    <Arrayupdate/>
     </>
   );
 }

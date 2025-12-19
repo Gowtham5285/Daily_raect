@@ -1,4 +1,4 @@
-/* .counter-container{
+.counter-container{
   text-align: center;
   font-family: sans-serif, Arial;
 }
@@ -21,8 +21,8 @@
 }
 .counter-button:hover{
    background-color: hsla(240, 64%, 44%, 0.842);
-} */
-body{
+}
+/* body{
   font-family: Arial, sans-serif;
 }
 .color-picker-container{
@@ -61,4 +61,4 @@ input[type="color"]{
   padding: 5px;
   border-radius: 10px;
   border: 3px solid hsl(0,0%,80%);
-}
+} */
