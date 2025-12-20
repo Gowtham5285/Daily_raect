@@ -1,4 +1,4 @@
-.counter-container{
+/* .counter-container{
   text-align: center;
   font-family: sans-serif, Arial;
 }
@@ -21,7 +21,7 @@
 }
 .counter-button:hover{
    background-color: hsla(240, 64%, 44%, 0.842);
-}
+} */
 /* body{
   font-family: Arial, sans-serif;
 }
@@ -62,3 +62,43 @@ input[type="color"]{
   border-radius: 10px;
   border: 3px solid hsl(0,0%,80%);
 } */
+
+.to-do-list{
+  font-family: arial, sans-serif;
+  text-align: center; 
+  margin: 100px;
+}
+h1{
+  font-size: 4rem;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.add-button{
+  background-color: hsl(125, 47%, 54%);
+}
+.add-button:hover{
+  background-color: hsl(125, 47%, 44%);
+}
+.delete-button{
+  background-color: hsl(10, 90%, 50%);
+}
+.delete-button:hover{
+  background-color: hsl(10, 90%, 40%);
+}
+.move-button{
+  background-color: hsl(207, 90%, 64%);
+}
+.move-button:hover{
+  background-color: hsl(207, 90%, 54%);
+}
+input[type="text"]{
+  font-size: 1.6rem;
+}
