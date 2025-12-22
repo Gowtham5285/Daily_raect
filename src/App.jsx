@@ -1,8 +1,8 @@
-import NewComponent from "./NewComponent.jsx";
+import DigitalClock from "./Digitalclock";
 function App() {
   return (
     <>
-    <NewComponent/>
+    <DigitalClock/>
     </>
   );
 }

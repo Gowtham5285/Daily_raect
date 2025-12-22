@@ -6,7 +6,17 @@ function NewComponent(){
         setWidth(window.innerWidth)
         setHeight(window.innerHeight)
     }
+    useEffect(()=>{
     window.addEventListener("resize",handleResize)
+    console.log("Event listener Added")
+    return ()=>{
+        window.removeEventListener("resize",handleResize)
+        console.log("Event listener removed")
+    }
+    },[])
+    useEffect(()=>{
+        document.title=`Size: ${width} X ${height}`
+    },[width,height])
     return(
         <>
         <p>The Width is {width}px</p>
