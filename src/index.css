@@ -129,7 +129,7 @@ li{
   font-size: 1.4rem;
   margin-left: 10px;
 } */
-body{
+/* body{
   background-image: url(https://cdn.wallpapersafari.com/16/56/ZBNPpc.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -153,4 +153,9 @@ body{
   font-family: monospace;
   text-shadow: 3px 3px 5px hsla(0, 5%, 31%, 0.544);
   text-align: center;
+} */
+
+.box{
+  border: 2px solid black;
+  padding:25px;
 }

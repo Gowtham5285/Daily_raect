@@ -1,0 +1,12 @@
+import { UserContext } from "./ComponentA.jsx";
+import { useContext } from "react";
+function ComponentD(){
+    const user=useContext(UserContext)
+    return(
+        <div className="box">
+            <h2>ComponentD</h2>
+            <h2>{`Bye  ${user}`}</h2>
+        </div>
+    )
+}
+export default ComponentD

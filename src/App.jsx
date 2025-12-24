@@ -1,8 +1,8 @@
-import DigitalClock from "./Digitalclock";
+import ChristmasTree from "./ChristmasTree.jsx";
 function App() {
   return (
     <>
-    <DigitalClock/>
+    <ChristmasTree/>
     </>
   );
 }
