@@ -1,8 +1,8 @@
-import ChristmasTree from "./ChristmasTree.jsx";
+import StopWatch from "./StopWatch.jsx";
 function App() {
   return (
     <>
-    <ChristmasTree/>
+    <StopWatch/>
     </>
   );
 }
